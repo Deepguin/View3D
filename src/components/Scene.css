@@ -1,0 +1,51 @@
+.scene-container {
+    padding: 1rem;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .controls-container {
+    width: 30%;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+  }
+  
+  .canvas-container {
+    flex: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .button-delete {
+    background-color: #f56565;
+  }
+  
+  .button-add {
+    background-color: #4299e1;
+  }
+  
+  .button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .button-group {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
